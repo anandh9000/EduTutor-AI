@@ -1,0 +1,27 @@
+EduTutorAI/
+├── app.py # Main entry point
+├── config.py # Configurations and constants
+├── requirements.txt # Python dependencies
+├── README.md # Project overview
+
+├── backend/
+│ ├── chatbot.py # LLM-based tutor logic
+│ ├── personalization.py # Adaptive learning engine
+│ ├── quiz_generator.py # AI quiz generator
+│ ├── lms_integration.py # LMS API integration
+
+├── frontend/
+│ ├── dashboard.py # Data visualization code
+│ └── streamlit_app.py # Streamlit-based UI
+
+├── data/
+│ ├── student_data.csv # Sample student performance data
+│ └── quiz_data.json # Sample generated quizzes
+
+├── models/
+│ ├── student_model.pkl # Trained performance model
+│ └── recommender_model.pkl # Learning path recommender
+
+yaml
+Copy
+Edit
